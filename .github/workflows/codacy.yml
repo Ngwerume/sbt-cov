@@ -42,4 +42,4 @@ jobs:
         env:
           CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
         run: |
-          bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r /home/runner/work/sample-java-sbt-with-cov/sample-java-sbt-with-cov/target/scala-2.13/jacoco/report/jacoco.xml
+          bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r /home/runner/work/sbt-cov/sbt-cov/target/scala-2.13/jacoco/report/jacoco.xml
