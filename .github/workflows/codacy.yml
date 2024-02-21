@@ -43,5 +43,5 @@ jobs:
           CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
         run: |
           export CODACY_API_BASE_URL=http://playpen.demo.codacy.org
-          export CODACY_REPORTER_VERSION=13.10.15
+          export CODACY_REPORTER_VERSION=13.15.1
           bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r /home/runner/work/sbt-cov/sbt-cov/target/scala-2.13/jacoco/report/jacoco.xml
