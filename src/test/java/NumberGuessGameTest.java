@@ -33,7 +33,6 @@ public class NumberGuessGameTest {
     public static void simulateGame(NumberGuessGame game, int secretNumber, int guessedNumber) {
         System.out.println("Secret Number: " + secretNumber);
         System.out.println("Guess: " + guessedNumber);
-        game.simulateGuessing(guessedNumber, secretNumber);
         System.out.println();
     }
 }
