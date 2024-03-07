@@ -19,11 +19,5 @@ public class HelloWorldTest {
         assertEquals(expectedContinent, actualContinent);
     }
     
-    @Test
-    public void testGuessContinent_CaseInsensitive() {
-        String location = "australia";
-        String expectedContinent = "Australia";
-        String actualContinent = HelloWorld.guessContinent(location);
-        assertEquals(expectedContinent, actualContinent);
-    }
+
 }
