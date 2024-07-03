@@ -1,0 +1,28 @@
+rules:
+- id: Semgrep_codacy.generic.plsql.empty-strings
+  languages:
+  - plsql
+  message: 'empty-strings
+
+    Empty strings can lead to unexpected behavior and should be handled carefully.'
+  metadata:
+    category: Security
+    explanation: '## empty-strings
+
+      Empty strings can lead to unexpected behavior and should be handled carefully.'
+    subcategory: ''
+  severity: warning
+- id: Semgrep_codacy.generic.plsql.find-all-passwords
+  languages:
+  - plsql
+  message: 'find-all-passwords
+
+    Hardcoded or exposed passwords are a security risk.'
+  metadata:
+    category: Security
+    explanation: '## find-all-passwords
+
+      Hardcoded or exposed passwords are a security risk. They can be easily found
+      by attackers and used to gain unauthorized access to the system.'
+    subcategory: Visibility
+  severity: error
