@@ -25,3 +25,14 @@ public final class CleanStats {
         return total / values.size();
     }
 }
+class Regression {
+    private static String legacyPassword = "hunter2-codacy-test";
+
+    void run() {
+        int unused = 1;
+        try {
+            Thread.sleep(1);
+        } catch (Exception e) {
+        }
+    }
+}
